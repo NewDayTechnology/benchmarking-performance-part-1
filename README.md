@@ -35,8 +35,6 @@ Builds are managed with love by Github Actions:
 
 [Licence](LICENSE)
 
-[Code of Conduct](CODE_OF_CONDUCT.md)
-
 [Contributing](CONTRIBUTING.md)
 
 [Support](SUPPORT.MD)
