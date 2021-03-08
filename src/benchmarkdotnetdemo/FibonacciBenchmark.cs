@@ -11,7 +11,7 @@ namespace benchmarkdotnetdemo
     [GcServer(true)]
     public class FibonacciBenchmark
     {
-        [Params(1, 2, 3, 5, 8, 13, 21, 34)]
+        [Params(1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233)]
         public int Count { get; set; }
 
         [Benchmark]
