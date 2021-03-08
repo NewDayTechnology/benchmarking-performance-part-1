@@ -17,17 +17,17 @@ This project just demonstrates the basics: the .net project, the CI pipeline and
 The absolute minimum function that can be benchmarked - it does nothing.
 
 * ``AddTest``
-A simple addition metric, again of minimal complexity
+A simple addition metric, again of minimal complexity.
 
 * ``MultiplyTest``
-A simple multiplication metric, again of minimal complexity
+A simple multiplication metric, again of minimal complexity.
 
 * ``Fibonacci``
-Benchmarking a Fibonacci implementation
+Benchmarking a Fibonacci implementation, measuring the computation time for the first N Fibonacci numbers.
 
 
 ## Builds
-Builds are managed with love by Github Actions
+Builds are managed with love by Github Actions: 
 
 [Build](https://github.com/NewDayTechnology/benchmarkdotnetdemo/actions)
 
