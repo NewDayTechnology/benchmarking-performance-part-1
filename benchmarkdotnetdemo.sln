@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "benchmarkdotnetdemo", "src\benchmarkdotnetdemo\benchmarkdotnetdemo.csproj", "{ADA4F5D6-33A4-4F72-90EC-2362189D58ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{BB69B369-EDF3-4DF5-83E5-C921E5ADB884}"
+	ProjectSection(SolutionItems) = preProject
+		CODE_OF_CONDUCT.md = CODE_OF_CONDUCT.md
+		CONTRIBUTING.md = CONTRIBUTING.md
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "main", "main", "{51943D54-5135-4579-A815-415F0710E33E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "actions", "actions", "{9C68ADE7-7879-41A2-85CD-404ABC057EE6}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADA4F5D6-33A4-4F72-90EC-2362189D58ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADA4F5D6-33A4-4F72-90EC-2362189D58ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADA4F5D6-33A4-4F72-90EC-2362189D58ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADA4F5D6-33A4-4F72-90EC-2362189D58ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ADA4F5D6-33A4-4F72-90EC-2362189D58ED} = {51943D54-5135-4579-A815-415F0710E33E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2A9A262-B54C-4E30-B29F-2F6964A3D941}
+	EndGlobalSection
+EndGlobal
