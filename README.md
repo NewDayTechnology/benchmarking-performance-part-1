@@ -41,4 +41,4 @@ Builds are managed with love by Github Actions:
 
 [Code of Conduct](CODE_OF_CONDUCT.md)
 
-[Support](SUPPORT.MD)
+[Support](SUPPORT.md)
