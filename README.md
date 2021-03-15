@@ -1,4 +1,4 @@
-# benchmarkdotnetdemo
+# Measuring performance with BenchmarkDotNet part 1
 
 
 ![Build](https://github.com/NewDayTechnology/benchmarkdotnetdemo/actions/workflows/dotnet.yml/badge.svg)
