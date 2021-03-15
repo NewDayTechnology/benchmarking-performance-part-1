@@ -3,6 +3,8 @@
 
 ![Build](https://github.com/NewDayTechnology/benchmarkdotnetdemo/actions/workflows/dotnet.yml/badge.svg)
 
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](CODE_OF_CONDUCT.md)
+
 A simple demonstration of the superlative [BenchmarkDotNet](https://benchmarkdotnet.org/index.html) and its integration into Github Actions.
 
 Measuring code performance is self evidently a vital discipline to software engineering and yet is so often skipped, usually for false economies. [BenchmarkDotNet](https://benchmarkdotnet.org/index.html) makes this essential task simplicity itself, with a syntax and style that's immediately intuitive to anyone versed in unit testing.
@@ -36,5 +38,7 @@ Builds are managed with love by Github Actions:
 [Licence](LICENSE)
 
 [Contributing](CONTRIBUTING.md)
+
+[Code of Conduct](CODE_OF_CONDUCT.md)
 
 [Support](SUPPORT.MD)
