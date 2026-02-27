@@ -22,14 +22,14 @@ jobs:
     - name: Publish
       run: dotnet publish -c Release --verbosity normal -o ./publish/
     - name: Archive 
-      uses: actions/upload-artifact@v6
+      uses: actions/upload-artifact@v7
       with:
         name: benchmarkdotnetdemo
         path: ./publish/*
     - name: Run Benchmarks    
       run: dotnet "./publish/benchmarkdotnetdemo.dll" -f "benchmarkdotnetdemo.*"
     - name: Upload benchmark results
-      uses: actions/upload-artifact@v6
+      uses: actions/upload-artifact@v7
       with:
         name: Benchmark_Results
         path: ./BenchmarkDotNet.Artifacts/results/*
